@@ -1,0 +1,14 @@
+
+.perfil{
+    padding-left: 10px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.swiper-pagination {
+    padding-bottom: 110px;
+}
+.icon-maps {
+    max-width: 15px;
+    max-height: 15px;
+}
