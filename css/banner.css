@@ -1,0 +1,78 @@
+.banner {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0 !important;
+    overflow: hidden;
+}
+  
+.banner-content{
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+
+.banner-content input{
+    display: none;
+}
+
+.banner-box {
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+}
+
+.banner-box .img-desktop {
+  
+    width: 100%;
+}
+
+  
+.change-manual, .change-auto {
+    position: absolute;
+    width: 100%;
+    margin-top: 42%;
+    justify-content: center;
+    display: flex;
+}
+  
+.change-manual .manual-btn, .change-auto div {
+    border: 1px solid #c113e080;
+    padding: 1px;
+    border-radius: 3%;
+    cursor: pointer;
+    width: 50px;
+    height: 1px;
+    transition: 0.4s;
+}
+  
+
+.change-manual .manual-btn:not(:last-child), 
+.change-auto div:not(:last-child) {
+    margin-right: 10px;
+}
+  
+
+.change-manual:hover {
+    background-color: #c113e0;
+}
+
+  
+#radio1:checked ~ .change-auto .auto-btn1,
+#radio2:checked ~ .change-auto .auto-btn2,
+#radio3:checked ~ .change-auto .auto-btn3 {
+    background-color: #c113e0;
+}
+
+
+#radio1:checked ~ .first {
+    margin-right: 0%;
+} 
+#radio2:checked ~ .first {
+    margin-right: -25%;
+} 
+#radio3:checked ~ .first {
+    margin-right: -50%;
+} 
