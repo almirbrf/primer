@@ -29,7 +29,6 @@
     width: 100%;
 }
 
-  
 .change-manual, .change-auto {
     position: absolute;
     width: 100%;
@@ -53,19 +52,12 @@
 .change-auto div:not(:last-child) {
     margin-right: 10px;
 }
-  
-
-.change-manual:hover {
-    background-color: #c113e0;
-}
-
-  
+    
 #radio1:checked ~ .change-auto .auto-btn1,
 #radio2:checked ~ .change-auto .auto-btn2,
 #radio3:checked ~ .change-auto .auto-btn3 {
     background-color: #c113e0;
 }
-
 
 #radio1:checked ~ .first {
     margin-right: 0%;
