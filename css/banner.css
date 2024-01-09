@@ -33,7 +33,7 @@
 .change-manual, .change-auto {
     position: absolute;
     width: 100%;
-    margin-top: 42%;
+    margin-top: 25%;
     justify-content: center;
     display: flex;
 }
